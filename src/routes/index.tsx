@@ -14,8 +14,8 @@ function Routes() {
 
   return (
     <NavigationContainer>
-     {/*  { logged? <AppRoutes/> : <AuthRoutes/> } */}
-     <AppRoutes/>
+      { logged? <AppRoutes/> : <AuthRoutes/> }
+     {/* <AppRoutes/> */}
      {/* <AuthRoutes/> */}
     </NavigationContainer>
   );
